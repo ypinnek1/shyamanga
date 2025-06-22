@@ -31,7 +31,7 @@ const Header = ({ activePage, setActivePage }) => {
           ))}
         </nav>
         <div className="md:hidden">
-          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="text-white focus:outline-none">
+          <button onClick={() => setIsMenuOpen(!isMenuOpen)} className="bg-gray-900 text-amber-400 focus:outline-none hover:border-amber-400 p-2 rounded-md transition-colors">
             {isMenuOpen ? <X size={28} /> : <Menu size={28} />}
           </button>
         </div>
