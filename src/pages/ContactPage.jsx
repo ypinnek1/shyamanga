@@ -16,7 +16,7 @@ const ContactPage = () => (
             <MapPin className="text-amber-400 h-6 w-6 mt-1 mr-4 flex-shrink-0" />
             <div>
               <h4 className="font-semibold text-white">Registered Address</h4>
-              <p className="text-gray-400">H No.1-90/7/8/61,167,168, F.No.201, Patrika Nagar, GSR, Madhapur, Hyderabad, Shaikpet, Telangana, India, 500081.</p>
+              <p className="text-gray-400">H:NO-59C/D, 2ND FLOOR, MLA COLONY, ROAD NO 12, BANJARAHILLS, HYDERABAD.</p>
             </div>
           </div>
           <div className="flex items-center">
