@@ -28,9 +28,9 @@ const AuditionsPage = () => (
               <li>A link to your showreel (if available).</li>
               <li>Your primary contact information (phone and email).</li>
           </ul>
-          <div className="bg-gray-900 inline-flex items-center p-4 rounded-lg">
+          <div className="bg-gray-900 inline-flex flex-wrap items-center p-4 rounded-lg justify-center">
               <Mail className="text-amber-400 mr-3 h-6 w-6" />
-              <a href="mailto:shyamangapictures@gmail.com" className="text-xl font-mono text-white hover:text-amber-400 transition-colors">
+              <a href="mailto:shyamangapictures@gmail.com" className="break-all text-xl font-mono text-white hover:text-amber-400 transition-colors">
                   shyamangapictures@gmail.com
               </a>
           </div>

@@ -3,7 +3,7 @@ import React from 'react';
 const NavLink = ({ active, onClick, children, underline }) => (
   <button
     onClick={onClick}
-    className={`relative px-4 py-2 text-base font-medium transition-colors duration-300 tracking-wide
+    className={`relative px-4 py-2 text-base font-medium transition-colors duration-300 tracking-wide bg-gray-900 md:bg-transparent
       ${active ? 'text-amber-400' : 'text-gray-200 hover:text-white'}
       focus:outline-none
     `}
