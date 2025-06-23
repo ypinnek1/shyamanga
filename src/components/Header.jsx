@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Clapperboard, Menu, X } from 'lucide-react';
 import NavLink from './NavLink';
+import AnimatedNavLink from './AnimatedNavLink';
 
 const Header = ({ activePage, setActivePage }) => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -20,14 +21,14 @@ const Header = ({ activePage, setActivePage }) => {
         </div>
         <nav className="hidden md:flex items-center space-x-6">
           {navLinks.map(link => (
-            <NavLink
+            <AnimatedNavLink
               key={link}
               active={activePage === link}
               onClick={() => handleNavClick(link)}
               underline
             >
               {link}
-            </NavLink>
+            </AnimatedNavLink>
           ))}
         </nav>
         <div className="md:hidden">
@@ -40,14 +41,14 @@ const Header = ({ activePage, setActivePage }) => {
         <div className="md:hidden bg-black/90 border-b border-white/10">
           <nav className="flex flex-col items-center py-4 space-y-2">
             {navLinks.map(link => (
-              <NavLink
+              <AnimatedNavLink
                 key={link}
                 active={activePage === link}
                 onClick={() => handleNavClick(link)}
                 underline
               >
                 {link}
-              </NavLink>
+              </AnimatedNavLink>
             ))}
           </nav>
         </div>

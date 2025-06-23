@@ -5,6 +5,7 @@ import HomePage from './pages/HomePage';
 import UpcomingProjectsPage from './pages/UpcomingProjectsPage';
 import AuditionsPage from './pages/AuditionsPage';
 import ContactPage from './pages/ContactPage';
+import { Analytics } from '@vercel/analytics/react';
 
 export default function App() {
   const [activePage, setActivePage] = useState('Home');
@@ -31,6 +32,7 @@ export default function App() {
         {renderPage()}
       </main>
       <Footer />
+      <Analytics />
     </div>
   );
 }
