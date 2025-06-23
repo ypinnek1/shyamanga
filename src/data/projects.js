@@ -7,6 +7,7 @@ topple the rich and powerful—but when his greatest score puts his family in th
 crosshairs, he must decide between the life of crime he’s built and the people he
 can’t afford to lose.`,
     status: "Pre-Production",
-    posterUrl: "https://placehold.co/600x900/1a1a1a/ffffff?text=Watch.Man",
+    posterUrl:
+      "https://placehold.co/600x900/1a1a1a/ffffff?text=Production+No.1",
   },
 ];
