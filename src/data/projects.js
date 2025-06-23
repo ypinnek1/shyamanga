@@ -1,8 +1,8 @@
 export const upcomingProjects = [
   {
-    title: "Watch.Man",
+    title: "Production No.1",
     genre: "Tech Crime Drama",
-    synopsis: `Sunny, a genius hacker, living in the shadows, pulls off audacious cyber heists that
+    synopsis: `A genius hacker, living in the shadows, pulls off audacious cyber heists that
 topple the rich and powerful—but when his greatest score puts his family in the
 crosshairs, he must decide between the life of crime he’s built and the people he
 can’t afford to lose.`,
